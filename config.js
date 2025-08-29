@@ -8,17 +8,14 @@ const defaultConfig = {
   pages: [
     {
       slug: 'privacy',
+      href: 'privacy.html',
       titles: { en: 'Privacy Policy', ar: 'سياسة الخصوصية' },
       contents: { en: '', ar: '' }
     },
     {
-      slug: 'faq',
-      titles: { en: 'FAQ', ar: 'الأسئلة الشائعة' },
-      contents: { en: '', ar: '' }
-    },
-    {
-      slug: 'about',
-      titles: { en: 'About Us', ar: 'من نحن' },
+      slug: 'terms',
+      href: 'terms.html',
+      titles: { en: 'Terms of Use', ar: 'شروط الاستخدام' },
       contents: { en: '', ar: '' }
     }
   ]
