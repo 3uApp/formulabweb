@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formulab</title>
+  <meta name="description" content="The advanced FORMULAB platform has everything a perfumer needs to get started." />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header container">
+    <h1 class="brand">Formulab</h1>
+    <div class="header-actions">
+      <button id="themeToggle" class="btn outline" aria-label="Toggle theme">🌙</button>
+      <button id="langToggle" class="btn outline">EN</button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container">
+      <p class="lead" data-i18n="hero.lead">The advanced FORMULAB platform has everything a perfumer needs to get started.</p>
+    </section>
+    <section class="features container" id="features">
+      <h2 data-i18n="features.header">Features</h2>
+      <div class="grid">
+        <article class="feature">
+          <img src="assets/feature-track.svg" alt="Track your material details" />
+          <h3 data-i18n="feature.track">Track your material details</h3>
+        </article>
+        <article class="feature">
+          <img src="assets/feature-search.svg" alt="Advanced search within material information" />
+          <h3 data-i18n="feature.search">Advanced search within material information</h3>
+        </article>
+        <article class="feature">
+          <img src="assets/feature-stats.svg" alt="Detailed statistics for your formula" />
+          <h3 data-i18n="feature.stats">Detailed statistics for your formula</h3>
+        </article>
+        <article class="feature">
+          <img src="assets/feature-restrictions.svg" alt="Calculation of restrictions on materials and natural oils" />
+          <h3 data-i18n="feature.restrictions">Calculation of restrictions on materials and natural oils</h3>
+        </article>
+        <article class="feature">
+          <img src="assets/feature-more.svg" alt="and more" />
+          <h3 data-i18n="feature.more">and more</h3>
+        </article>
+        <article class="feature">
+          <img src="assets/feature-more.svg" alt="Full app backup" />
+          <h3 data-i18n="feature.backup">Full app backup</h3>
+        </article>
+        <article class="feature">
+          <img src="assets/feature-more.svg" alt="iCloud backup across all your devices" />
+          <h3 data-i18n="feature.icloud">iCloud backup across all your devices</h3>
+        </article>
+        <article class="feature">
+          <img src="assets/feature-more.svg" alt="Export formula or all materials as PDF" />
+          <h3 data-i18n="feature.export">Export formula or all materials as PDF</h3>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer container">
+    <img src="assets/logo.svg" alt="Formulab" class="footer-logo" />
+    <p class="footer-desc" data-i18n="footer.description">The advanced FORMULAB platform has everything a perfumer needs to get started.</p>
+    <div class="download">
+      <p class="download-title" data-i18n="footer.download">Download the app</p>
+      <div class="download-links">
+        <a href="#" id="appStoreLink"><img src="assets/appstore-badge.svg" alt="App Store" /></a>
+      </div>
+    </div>
+  <p class="footer-pages-title" data-i18n="footer.linksTitle">روابط مهمة</p>
+  <nav class="footer-pages" id="footerPages"></nav>
+    <div class="footer-social">
+      <a id="whatsLink" href="https://wa.me/966596204057" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <img src="assets/whatsapp.svg" alt="WhatsApp" />
+      </a>
+      <a id="mailLink" href="mailto:allbdrii99@gmail.com" aria-label="Email">
+        <img src="assets/mail.svg" alt="Email" />
+      </a>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Formulab</p>
+  </footer>
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+  <script>
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

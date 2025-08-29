@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Formulab Pro — Terms of Use</title>
+<meta name="color-scheme" content="light dark" />
+<style>
+  :root{
+    --bg: #ffffff;
+    --fg: #0b0b0c;
+    --muted: #6b7280;
+    --link: #0a84ff;
+    --card: #f5f7fb;
+    --border: #e5e7eb;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg: #0b0b0c;
+      --fg: #f7f7f8;
+      --muted: #a1a1aa;
+      --link: #4da3ff;
+      --card: #121317;
+      --border: #23242a;
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font: 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    background:var(--bg);
+    color:var(--fg);
+    line-height:1.6;
+  }
+  .wrap{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px clamp(16px, 4vw, 28px) 44px;
+  }
+  header{
+    position: sticky;
+    top:0;
+    backdrop-filter: blur(8px);
+    background: color-mix(in srgb, var(--bg) 85%, transparent);
+    border-bottom: 1px solid var(--border);
+    z-index: 10;
+  }
+  .head{
+    display:flex; align-items:center; justify-content:space-between;
+    gap:12px; min-height:56px;
+    padding: 8px clamp(16px, 4vw, 28px);
+    max-width: 900px; margin: 0 auto;
+  }
+  .brand{
+    font-weight: 800; letter-spacing: .2px; font-size: 18px;
+  }
+
+  /* زر تغيير اللغة — نسخة "ممتلئة" واضحة */
+  .lang-btn{
+    appearance: none;
+    border: none;
+    background: var(--link);
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(0,0,0,.25),
+                0 8px 20px color-mix(in srgb, var(--link) 25%, transparent);
+    transition: transform .08s ease, filter .12s ease, box-shadow .12s ease;
+  }
+  .lang-btn:hover{ filter: brightness(.95); }
+  .lang-btn:active{ transform: translateY(1px); }
+  .lang-btn:focus-visible{
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+  @media (prefers-color-scheme: dark) {
+    .lang-btn{
+      box-shadow: 0 1px 0 rgba(0,0,0,.5),
+                  0 8px 20px color-mix(in srgb, var(--link) 35%, transparent);
+    }
+  }
+
+  main{ margin-top: 16px; }
+  h1{ font-size: clamp(22px, 3.6vw, 32px); margin: 18px 0 8px; }
+  h2{ font-size: clamp(18px, 2.8vw, 22px); margin: 24px 0 8px; }
+  p{ margin: 0 0 12px; }
+  ul{ margin: 0 0 12px 1.2em; padding:0; }
+  li{ margin: 6px 0; }
+  a{ color: var(--link); text-decoration: none; }
+  a:hover{ text-decoration: underline; }
+
+  .card{
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: clamp(14px, 2.8vw, 20px);
+    margin: 14px 0;
+  }
+  .muted{ color: var(--muted); }
+  footer{
+    margin-top: 32px; padding-top: 14px;
+    border-top:1px solid var(--border);
+    color:var(--muted); font-size: 14px;
+  }
+
+  /* RTL tweaks */
+  html[dir="rtl"] body{ font-family: system-ui, -apple-system, "SF Pro", "Segoe UI", Tahoma, "Noto Kufi Arabic", "Cairo", "Geeza Pro", Arial, sans-serif; }
+  html[dir="rtl"] ul{ margin: 0 1.2em 12px 0; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="head">
+      <div class="brand">Formulab Pro — Terms of Use</div>
+      <button id="langBtn" class="lang-btn" aria-label="Switch language">العربية</button>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <main>
+      <!-- EN content (default visible) -->
+      <article class="lang lang-en" lang="en">
+        <p class="muted">Last updated: 29 Aug 2025</p>
+
+        <h1>Terms of Use</h1>
+        <p>These Terms of Use (“Terms”) govern your use of the Formulab Pro mobile app and website (collectively, the “Service”). By using the Service, you agree to these Terms.</p>
+
+        <h2>1. Who we are</h2>
+        <div class="card">
+          <p><strong>Company name:</strong> Formulab Pro</p>
+          <p><strong>Support email:</strong> <a href="mailto:support@formulabpro.online">support@formulabpro.online</a></p>
+          <p><strong>Website:</strong> <a href="https://formulabpro.online" target="_blank" rel="noopener">https://formulabpro.online</a></p>
+        </div>
+
+        <h2>2. Subscription & billing</h2>
+        <p>Formulab Pro offers an auto-renewable yearly subscription. Payment is charged to your Apple ID. The subscription renews automatically unless canceled at least 24 hours before the end of the current period. You can manage or cancel your subscription in your Apple ID settings.</p>
+
+        <h2>3. Free tier limits</h2>
+        <ul>
+          <li>Materials: up to 10 items</li>
+          <li>Formulas: up to 3 items</li>
+        </ul>
+        <p>Exceeding these limits requires an active subscription.</p>
+
+        <h2>4. Trials, refunds, and cancellations</h2>
+        <p>Any trial periods, refunds, and cancellations are handled by Apple according to App Store policies. We cannot issue refunds directly.</p>
+
+        <h2>5. Your content & license</h2>
+        <p>You own the content you create (e.g., materials, formulas). You grant us a limited license to store and process it solely to operate the Service. The app and all related IP remain our property.</p>
+
+        <h2>6. Acceptable use</h2>
+        <p>Do not misuse the Service, attempt to reverse engineer it, or use it in ways that violate applicable laws.</p>
+
+        <h2>7. Privacy</h2>
+        <p>Please review our <a href="/privacy.html">Privacy Policy</a> to understand how we handle data.</p>
+
+        <h2>8. Changes to these Terms</h2>
+        <p>We may update these Terms. Continued use after changes means you accept the updated Terms.</p>
+
+        <h2>9. Contact</h2>
+        <p>Questions? <a href="mailto:support@formulabpro.online">Contact support</a>.</p>
+      </article>
+
+      <!-- AR content (hidden until toggled) -->
+      <article class="lang lang-ar" lang="ar" style="display:none">
+        <p class="muted">آخر تحديث: 29 أغسطس 2025</p>
+
+        <h1>شروط الاستخدام</h1>
+        <p>تحكم هذه الشروط استخدامك لتطبيق وموقع <strong>فورميولاب برو</strong> (“الخدمة”). باستخدامك للخدمة فأنت توافق على هذه الشروط.</p>
+
+        <h2>1. من نحن</h2>
+        <div class="card">
+          <p><strong>اسم الشركة:</strong> فورميولاب برو</p>
+          <p><strong>بريد الدعم:</strong> <a href="mailto:support@formulabpro.online">support@formulabpro.online</a></p>
+          <p><strong>الموقع:</strong> <a href="https://formulabpro.online" target="_blank" rel="noopener">https://formulabpro.online</a></p>
+        </div>
+
+        <h2>2. الاشتراك والفوترة</h2>
+        <p>تقدم فورميولاب برو اشتراكًا سنويًا يُجدد تلقائيًا. يتم تحصيل المبلغ من حساب Apple ID. يتجدد الاشتراك تلقائيًا ما لم يتم إلغاؤه قبل 24 ساعة على الأقل من نهاية الفترة الجارية. يمكنك إدارة الاشتراك أو إلغاؤه من إعدادات Apple ID.</p>
+
+        <h2>3. حدود النسخة المجانية</h2>
+        <ul>
+          <li>المواد: حتى 10 عناصر</li>
+          <li>التركيبات: حتى 3 عناصر</li>
+        </ul>
+        <p>تجاوز هذه الحدود يتطلب اشتراكًا فعالًا.</p>
+
+        <h2>4. الفترات التجريبية والاسترداد والإلغاء</h2>
+        <p>تتم معالجة أي فترات تجريبية أو استرداد أو إلغاء عبر Apple وفق سياسات App Store. لا يمكننا إصدار المبالغ مباشرة.</p>
+
+        <h2>5. المحتوى والترخيص</h2>
+        <p>تملك المحتوى الذي تنشئه (مثل المواد والتركيبات). وتمنحنا ترخيصًا محدودًا لتخزينه ومعالجته فقط لتشغيل الخدمة. التطبيق وكافة حقوق الملكية الفكرية تظل مملوكة لنا.</p>
+
+        <h2>6. الاستخدام المقبول</h2>
+        <p>يُحظر إساءة استخدام الخدمة أو محاولة تفكيكها أو استخدامها بما يخالف القوانين المعمول بها.</p>
+
+        <h2>7. الخصوصية</h2>
+        <p>يرجى مراجعة <a href="/privacy.html">سياسة الخصوصية</a> لمعرفة كيفية التعامل مع البيانات.</p>
+
+        <h2>8. تغييرات الشروط</h2>
+        <p>قد نقوم بتحديث هذه الشروط. استمرارك في الاستخدام يعني موافقتك على الشروط المحدّثة.</p>
+
+        <h2>9. التواصل</h2>
+        <p>للاستفسارات: <a href="mailto:support@formulabpro.online">support@formulabpro.online</a>.</p>
+      </article>
+
+      <footer>
+        © <span id="year"></span> Formulab Pro — All rights reserved.
+      </footer>
+    </main>
+  </div>
+
+<script>
+  const btn = document.getElementById('langBtn');
+  const root = document.documentElement;
+  const en = document.querySelector('.lang-en');
+  const ar = document.querySelector('.lang-ar');
+
+  function setLang(code){
+    const isAr = code === 'ar';
+    root.lang = code;
+    root.dir = isAr ? 'rtl' : 'ltr';
+    en.style.display = isAr ? 'none' : 'block';
+    ar.style.display = isAr ? 'block' : 'none';
+    btn.textContent = isAr ? 'English' : 'العربية';
+    localStorage.setItem('fl_lang', code);
+  }
+
+  // init
+  const saved = localStorage.getItem('fl_lang') || 'en';
+  setLang(saved);
+
+  btn.addEventListener('click', () => setLang(root.lang === 'ar' ? 'en' : 'ar'));
+
+  // year
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Formulab Pro — Privacy Policy</title>
+<meta name="color-scheme" content="light dark" />
+<style>
+  :root{
+    --bg: #ffffff;
+    --fg: #0b0b0c;
+    --muted: #6b7280;
+    --link: #0a84ff;
+    --card: #f5f7fb;
+    --border: #e5e7eb;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg: #0b0b0c;
+      --fg: #f7f7f8;
+      --muted: #a1a1aa;
+      --link: #4da3ff;
+      --card: #121317;
+      --border: #23242a;
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font: 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    background:var(--bg);
+    color:var(--fg);
+    line-height:1.6;
+  }
+  .wrap{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px clamp(16px, 4vw, 28px) 44px;
+  }
+  header{
+    position: sticky;
+    top:0;
+    backdrop-filter: blur(8px);
+    background: color-mix(in srgb, var(--bg) 85%, transparent);
+    border-bottom: 1px solid var(--border);
+    z-index: 10;
+  }
+  .head{
+    display:flex; align-items:center; justify-content:space-between;
+    gap:12px; min-height:56px;
+    padding: 8px clamp(16px, 4vw, 28px);
+    max-width: 900px; margin: 0 auto;
+  }
+  .brand{ font-weight: 800; letter-spacing: .2px; font-size: 18px; }
+
+  /* زر تغيير اللغة — نسخة "ممتلئة" واضحة */
+  .lang-btn{
+    appearance: none;
+    border: none;
+    background: var(--link);
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(0,0,0,.25),
+                0 8px 20px color-mix(in srgb, var(--link) 25%, transparent);
+    transition: transform .08s ease, filter .12s ease, box-shadow .12s ease;
+  }
+  .lang-btn:hover{ filter: brightness(.95); }
+  .lang-btn:active{ transform: translateY(1px); }
+  .lang-btn:focus-visible{
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+  @media (prefers-color-scheme: dark) {
+    .lang-btn{
+      box-shadow: 0 1px 0 rgba(0,0,0,.5),
+                  0 8px 20px color-mix(in srgb, var(--link) 35%, transparent);
+    }
+  }
+
+  main{ margin-top: 16px; }
+  h1{ font-size: clamp(22px, 3.6vw, 32px); margin: 18px 0 8px; }
+  h2{ font-size: clamp(18px, 2.8vw, 22px); margin: 24px 0 8px; }
+  p{ margin: 0 0 12px; }
+  ul{ margin: 0 0 12px 1.2em; padding:0; }
+  li{ margin: 6px 0; }
+  a{ color: var(--link); text-decoration: none; }
+  a:hover{ text-decoration: underline; }
+
+  .card{
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: clamp(14px, 2.8vw, 20px);
+    margin: 14px 0;
+  }
+  .muted{ color: var(--muted); }
+  footer{
+    margin-top: 32px; padding-top: 14px;
+    border-top:1px solid var(--border);
+    color:var(--muted); font-size: 14px;
+  }
+
+  /* RTL tweaks */
+  html[dir="rtl"] body{ font-family: system-ui, -apple-system, "SF Pro", "Segoe UI", Tahoma, "Noto Kufi Arabic", "Cairo", "Geeza Pro", Arial, sans-serif; }
+  html[dir="rtl"] ul{ margin: 0 1.2em 12px 0; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="head">
+      <div class="brand">Formulab Pro — Privacy Policy</div>
+      <button id="langBtn" class="lang-btn" aria-label="Switch language">العربية</button>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <main>
+      <!-- EN content (default visible) -->
+      <article class="lang lang-en" lang="en">
+        <p class="muted">Last updated: 29 Aug 2025</p>
+
+        <h1>Privacy Policy</h1>
+        <p>This Privacy Policy explains how Formulab Pro (“we”, “us”, or “our”) collects, uses, and protects information when you use our app and website.</p>
+
+        <h2>1. Who we are</h2>
+        <div class="card">
+          <p><strong>Company name:</strong> Formulab Pro</p>
+          <p><strong>Support email:</strong> <a href="mailto:support@formulabpro.online">support@formulabpro.online</a></p>
+          <p><strong>Website:</strong> <a href="https://formulabpro.online" target="_blank" rel="noopener">https://formulabpro.online</a></p>
+        </div>
+
+        <h2>2. Data we collect</h2>
+        <ul>
+          <li><strong>In-app data you create</strong> (materials, formulas) — stored locally on your device and/or in iCloud if you enable it.</li>
+          <li><strong>Purchase information</strong> — receipts and subscription status (from Apple) to validate your Pro access.</li>
+          <li><strong>Diagnostics</strong> — optional, anonymized crash or performance data to improve reliability.</li>
+          <li><strong>Website logs</strong> — standard server logs and minimal analytics.</li>
+        </ul>
+
+        <h2>3. How we use data</h2>
+        <ul>
+          <li>Provide and improve the Service.</li>
+          <li>Process purchases and validate subscriptions.</li>
+          <li>Respond to support requests.</li>
+          <li>Comply with legal obligations.</li>
+        </ul>
+
+        <h2>4. Sharing & third parties</h2>
+        <p>We do not sell your personal data. We rely on services like Apple (In-App Purchases and iCloud) and standard web hosting/analytics. These providers process data on our behalf under their terms.</p>
+
+        <h2>5. Security</h2>
+        <p>We use reasonable safeguards to protect information. No method of transmission or storage is 100% secure.</p>
+
+        <h2>6. Your choices</h2>
+        <ul>
+          <li>Manage subscription: Apple ID settings.</li>
+          <li>iCloud sync: enable/disable via your device settings.</li>
+          <li>Contact us for questions or requests: <a href="mailto:support@formulabpro.online">support@formulabpro.online</a>.</li>
+        </ul>
+
+        <h2>7. Children’s privacy</h2>
+        <p>Our Service is not directed to children under the age required by local law for consent.</p>
+
+        <h2>8. Changes to this policy</h2>
+        <p>We may update this Policy. Continued use after changes means you accept the updated Policy.</p>
+
+        <h2>9. Contact</h2>
+        <p>Questions? <a href="mailto:support@formulabpro.online">Contact support</a>.</p>
+      </article>
+
+      <!-- AR content (hidden until toggled) -->
+      <article class="lang lang-ar" lang="ar" style="display:none">
+        <p class="muted">آخر تحديث: 29 أغسطس 2025</p>
+
+        <h1>سياسة الخصوصية</h1>
+        <p>توضح سياسة الخصوصية هذه كيفية قيام <strong>فورميولاب برو</strong> (“نحن”) بجمع المعلومات واستخدامها وحمايتها عند استخدامك للتطبيق والموقع.</p>
+
+        <h2>1. من نحن</h2>
+        <div class="card">
+          <p><strong>اسم الشركة:</strong> فورميولاب برو</p>
+          <p><strong>بريد الدعم:</strong> <a href="mailto:support@formulabpro.online">support@formulabpro.online</a></p>
+          <p><strong>الموقع:</strong> <a href="https://formulabpro.online" target="_blank" rel="noopener">https://formulabpro.online</a></p>
+        </div>
+
+        <h2>2. البيانات التي نجمعها</h2>
+        <ul>
+          <li><strong>البيانات التي تنشئها داخل التطبيق</strong> (المواد والتركيبات) — تُحفظ على جهازك و/أو على iCloud إذا فعّلت ذلك.</li>
+          <li><strong>معلومات الشراء</strong> — إيصالات وحالة الاشتراك (من Apple) للتحقق من صلاحية الاشتراك.</li>
+          <li><strong>التشخيصات</strong> — بيانات أعطال/أداء مجهولة لتحسين الاعتمادية.</li>
+          <li><strong>سجلات الموقع</strong> — سجلات خادم قياسية وتحليلات بسيطة.</li>
+        </ul>
+
+        <h2>3. كيفية استخدام البيانات</h2>
+        <ul>
+          <li>تقديم الخدمة وتحسينها.</li>
+          <li>معالجة المشتريات والتحقق من الاشتراكات.</li>
+          <li>الاستجابة لطلبات الدعم.</li>
+          <li>الامتثال للالتزامات القانونية.</li>
+        </ul>
+
+        <h2>4. المشاركة وأطراف ثالثة</h2>
+        <p>لا نبيع بياناتك الشخصية. نعتمد على خدمات مثل Apple (مشتريات داخل التطبيق وiCloud) واستضافة/تحليلات مواقع معتادة، وتقوم هذه الجهات بمعالجة البيانات وفق شروطها.</p>
+
+        <h2>5. الأمان</h2>
+        <p>نستخدم وسائل حماية معقولة. لكن لا توجد وسيلة نقل أو تخزين آمنة بنسبة 100%.</p>
+
+        <h2>6. اختياراتك</h2>
+        <ul>
+          <li>إدارة الاشتراك: إعدادات حساب Apple ID.</li>
+          <li>مزامنة iCloud: تفعيل/تعطيل من إعدادات جهازك.</li>
+          <li>للاستفسار أو الطلبات: <a href="mailto:support@formulabpro.online">support@formulabpro.online</a>.</li>
+        </ul>
+
+        <h2>7. خصوصية الأطفال</h2>
+        <p>لا تستهدف الخدمة الأطفال دون السن المسموح به قانونًا للموافقة.</p>
+
+        <h2>8. تغييرات السياسة</h2>
+        <p>قد نقوم بتحديث هذه السياسة. استمرارك في الاستخدام يعني موافقتك على النسخة المحدّثة.</p>
+
+        <h2>9. التواصل</h2>
+        <p>للاستفسارات: <a href="mailto:support@formulabpro.online">support@formulabpro.online</a>.</p>
+      </article>
+
+      <footer>
+        © <span id="year"></span> Formulab Pro — All rights reserved.
+      </footer>
+    </main>
+  </div>
+
+<script>
+  const btn = document.getElementById('langBtn');
+  const root = document.documentElement;
+  const en = document.querySelector('.lang-en');
+  const ar = document.querySelector('.lang-ar');
+
+  function setLang(code){
+    const isAr = code === 'ar';
+    root.lang = code;
+    root.dir = isAr ? 'rtl' : 'ltr';
+    en.style.display = isAr ? 'none' : 'block';
+    ar.style.display = isAr ? 'block' : 'none';
+    btn.textContent = isAr ? 'English' : 'العربية';
+    localStorage.setItem('fl_lang', code);
+  }
+
+  // init
+  const saved = localStorage.getItem('fl_lang') || 'en';
+  setLang(saved);
+
+  btn.addEventListener('click', () => setLang(root.lang === 'ar' ? 'en' : 'ar'));
+
+  // year
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
