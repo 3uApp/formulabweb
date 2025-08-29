@@ -47,7 +47,7 @@ function renderConfig() {
     pagesNav.innerHTML = '';
     config.pages.forEach(page => {
       const a = document.createElement('a');
-      a.href = `page.html?slug=${encodeURIComponent(page.slug)}`;
+      a.href = page.href ? page.href : `page.html?slug=${encodeURIComponent(page.slug)}`;
       a.textContent = page.titles[currentLang] || '';
       pagesNav.appendChild(a);
     });
