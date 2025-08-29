@@ -35,16 +35,18 @@ html[dir='rtl'] .header{flex-direction:row-reverse}
 .download-title{margin-bottom:12px;font-weight:600}
 .download-links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 .download-links img{height:40px}
-.footer-pages-title{margin-bottom:8px;font-weight:600}
+.footer-pages-title{margin:40px 0 8px;font-weight:600}
 .footer-pages{display:flex;flex-direction:column;gap:6px;width:100%;margin-bottom:20px;font-size:.9rem}
-.footer-pages a{text-decoration:none;color:inherit}
+.footer-pages a{text-decoration:none;color:inherit;display:block;width:fit-content;align-self:flex-start}
 html[dir='rtl'] .footer-pages{align-items:flex-end;text-align:right}
 html[dir='ltr'] .footer-pages{align-items:flex-start;text-align:left}
+html[dir='rtl'] .footer-pages a{align-self:flex-end}
 html[dir='rtl'] .footer-pages-title{text-align:right}
 html[dir='ltr'] .footer-pages-title{text-align:left}
 .footer-social{display:flex;gap:16px;justify-content:center;margin-bottom:20px}
 .footer-social a{color:inherit;display:inline-flex}
 .footer-social svg,.footer-social img{width:20px;height:20px}
+body:not(.light) .footer-social img{filter:invert(1)}
 .footer-copy{margin-top:20px;color:var(--muted);font-size:.8rem}
 
 /* light theme */
